@@ -1,0 +1,60 @@
+$date
+	Sat Jul 12 18:10:38 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module orgate_3bit_tb $end
+$var wire 3 ! y [2:0] $end
+$var reg 3 " a [2:0] $end
+$var reg 3 # b [2:0] $end
+$var reg 3 $ c [2:0] $end
+$scope module dut $end
+$var wire 3 % a [2:0] $end
+$var wire 3 & b [2:0] $end
+$var wire 3 ' c [2:0] $end
+$var wire 3 ( y [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 (
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10
+b100 !
+b100 (
+b100 "
+b100 %
+#20
+b11 !
+b11 (
+b1 $
+b1 '
+b10 #
+b10 &
+b0 "
+b0 %
+#30
+b111 !
+b111 (
+b111 $
+b111 '
+b111 #
+b111 &
+b111 "
+b111 %
+#40
